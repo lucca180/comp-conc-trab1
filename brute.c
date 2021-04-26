@@ -5,7 +5,7 @@
 #include <pthread.h>
 #include "timer.h"
 
-const char* FILE_PATH = "db/rockyou.txt"; // Caminho do dicionário.
+const char* FILE_PATH = "dict/cain.txt"; // Caminho do dicionário.
 
 char* target; // A senha a ser buscada
 int found = 0; // Variavel para marcar se a senha foi encontrada;
